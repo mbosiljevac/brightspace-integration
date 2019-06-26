@@ -21,6 +21,11 @@ body[unresolved] {
 	padding: 0;
 }
 
+#d2l_body.d2l-dark-mode,
+.d2l-body.d2l-dark-mode {
+	background-color: #000000;
+}
+
 #d2l_body.dbd_frame,
 .d2l-body.dbd_frame {
 	background-color: transparent;

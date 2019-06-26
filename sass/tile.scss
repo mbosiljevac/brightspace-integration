@@ -1,3 +1,4 @@
+@import '../node_modules/d2l-colors/d2l-colors.scss';
 
 .d2l-tiles-container {
 	background-color: #f6f7f8;
@@ -11,4 +12,11 @@
 	background-color: #ffffff;
 	border-radius: 8px;
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.03);
+}
+
+.d2l-dark-mode .d2l-tiles-container {
+	background-color: #000000;
+}
+.d2l-dark-mode .d2l-tile {
+	background-color: $d2l-color-dark-mode-1;
 }
