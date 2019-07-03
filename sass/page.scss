@@ -21,8 +21,8 @@ body[unresolved] {
 	padding: 0;
 }
 
-#d2l_body.d2l-dark-mode,
-.d2l-body.d2l-dark-mode {
+[d2l-color-scheme="dark"] #d2l_body,
+[d2l-color-scheme="dark"] .d2l-body {
 	background-color: #000000;
 }
 

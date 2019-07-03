@@ -117,7 +117,7 @@
 	}
 }
 
-.d2l-dark-mode .d2l-branding-navigation-dark-foreground-color .d2l-navigation-s-group {
+[d2l-color-scheme="dark"] .d2l-branding-navigation-dark-foreground-color .d2l-navigation-s-group {
 	.d2l-navigation-s-group-wrapper {
 		d2l-icon {
 			color: $d2l-color-regolith;
@@ -127,7 +127,7 @@
 		color: $d2l-color-regolith;
 	}
 }
-.d2l-dark-mode .d2l-branding-navigation-light-foreground-color .d2l-navigation-s-group {
+[d2l-color-scheme="dark"] .d2l-branding-navigation-light-foreground-color .d2l-navigation-s-group {
 	.d2l-navigation-s-group-wrapper {
 		d2l-icon {
 			color: $d2l-color-regolith;
@@ -137,7 +137,7 @@
 		color: $d2l-color-regolith;
 	}
 }
-.d2l-dark-mode .d2l-navigation-s-linkarea-no-color {
+[d2l-color-scheme="dark"] .d2l-navigation-s-linkarea-no-color {
 	.d2l-navigation-s-group:hover .d2l-navigation-s-group-text,
 	.d2l-navigation-s-group:focus .d2l-navigation-s-group-text,
 	.d2l-navigation-s-group:hover .d2l-navigation-s-group-wrapper d2l-icon,

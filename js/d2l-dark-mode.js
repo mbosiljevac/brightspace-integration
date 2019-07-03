@@ -4,9 +4,9 @@ var query = window.matchMedia('(prefers-color-scheme: dark)');
 var setColorScheme = function() {
 	var preferredColorScheme = window.document.documentElement.getAttribute('data-preferred-color-scheme');
 	if (preferredColorScheme === 'dark' || (preferredColorScheme === 'os' && query.matches)) {
-		document.body.classList.add('d2l-dark-mode');
+		window.document.documentElement.setAttribute('d2l-color-scheme', 'dark');
 	} else {
-		document.body.classList.remove('d2l-dark-mode');
+		window.document.documentElement.removeAttribute('d2l-color-scheme');
 	}
 };
 
