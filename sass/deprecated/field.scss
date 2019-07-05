@@ -68,6 +68,9 @@ $vui-field-asterisk: url("data:image/svg+xml,%3Csvg%20width%3D%225%22%20height%3
 
 .vui-label {
 	@include vui-field-label();
+	[d2l-color-scheme="dark"] & {
+		color: $d2l-color-regolith;
+	}
 }
 
 .vui-required {

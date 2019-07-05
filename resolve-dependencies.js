@@ -24,6 +24,7 @@ const packages = [
 	{ name: 'd2l-menu', from: 'github:BrightspaceUI/menu#dbatiste/dark-mode-1'},
 	{ name: 'd2l-navigation', from: 'github:BrightspaceUI/navigation#dbatiste/dark-mode-1'},
 	{ name: 'd2l-status-indicator', from: 'github:BrightspaceUI/status-indicator#dbatiste/dark-mode-1'},
+	{ name: 'd2l-table', from: 'github:BrightspaceUI/table#dbatiste/dark-mode-1'},
 	{ name: 'd2l-tooltip', from: 'github:BrightspaceUI/tooltip#dbatiste/dark-mode-1'},
 	{ name: 'd2l-typography', from: 'github:BrightspaceUI/typography#dbatiste/dark-mode-1'}
 ];

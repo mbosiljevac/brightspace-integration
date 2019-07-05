@@ -108,7 +108,7 @@
     "d2l-sequence-viewer": "Brightspace/d2l-sequence-viewer#semver:^1",
     "d2l-simple-overlay": "Brightspace/simple-overlay#semver:^3",
     "d2l-status-indicator": "Brightspace/status-indicator#dbatiste/dark-mode-1",
-    "d2l-table": "BrightspaceUI/table#semver:^2",
+    "d2l-table": "BrightspaceUI/table#dbatiste/dark-mode-1",
     "d2l-tooltip": "BrightspaceUI/tooltip#dbatiste/dark-mode-1",
     "d2l-typography": "BrightspaceUI/typography#dbatiste/dark-mode-1",
     "d2l-users": "BrightspaceHypermediaComponents/users#semver:^2",

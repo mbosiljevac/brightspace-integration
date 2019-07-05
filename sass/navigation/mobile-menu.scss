@@ -18,6 +18,10 @@
 	z-index: 9000;
 }
 
+[d2l-color-scheme="dark"] .d2l-navigation-s-mobile-menu-content {
+	background-color: $d2l-color-dark-mode-1;
+}
+
 [dir='rtl'] .d2l-navigation-s-mobile-menu-content {
 	left: auto;
 	right: 0;
