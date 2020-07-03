@@ -26,10 +26,16 @@ jobs:
       env:
         BSI_SYNC_JWT: ${{ steps.get-jwt.outputs.jwt }}
     - name: Repository Dispatch
-      # will move this to Brightspace/third-party-actions once we know it's what we want
-      uses: peter-evans/repository-dispatch@v1
+      uses: Brightspace/third-party-actions@actions/github-script
       with:
-        token: ${{ steps.get-app-token.outputs.token }}
-        repository: Brightspace/lms
-        event-type: bsi-sync-test
-        client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
+        script: |
+          github.repos.createDispatchEvent({
+            owner: 'Brightspace',
+            repo: 'lms',
+            event_type: 'bsi-sync-test',
+            client_payload: {
+              "ref": "${{ github.ref }}",
+              "sha": "${{ github.sha }}"
+            }
+          });
+        github-token: ${{ steps.get-app-token.outputs.token }}
