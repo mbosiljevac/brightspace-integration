@@ -105,5 +105,8 @@
     "sinon": "^7",
     "sinon-chai": "^3",
     "susy": "^2"
+  },
+  "dependencies": {
+    "foundation-engine": "github:BrightspaceHypermediaComponents/foundation-engine"
   }
 }
