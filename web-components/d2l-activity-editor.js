@@ -1,4 +1,4 @@
-import 'foundation-components/components/activity/editor/d2l-activity-editor.js';
+import '@brightspace-hmc/foundation-components/components/activity/editor/d2l-activity-editor.js';
 import { html, LitElement } from 'lit-element/lit-element.js';
 
 class CollectionEditor extends LitElement {
